@@ -1,8 +1,11 @@
-Package: tws_mktdata
-Title: 
-Description: 
+Package: twsMktdata
+Title: TWS market data
+Description: Collect and Store TWS market data using IBrokers
 Version: 0.1
-Authors@R: # getOptions('devtools.desc.author')
+#Authors@R: # getOptions('devtools.desc.author')
 Depends: R (>= 3.0.2)
-License: # getOptions('devtools.desc.license')
+License: MIT
 LazyData: true
+Author: Ryan Fitzmaurice <rfitz543@gmail.com>
+Maintainer: Ryan Fitzmaurice <rfitz543@gmail.com>
+
