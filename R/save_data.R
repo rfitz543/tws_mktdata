@@ -1,6 +1,7 @@
 # function to save daily prices into daily folders using FI
 save_daily <- function(ticker)
 {
+require(FinancialInstrument)
 require(IBrokers)
 if(!isConnected(tws)) tws <- twsConnect()
 dir <- substr(ticker, 1, 2)
