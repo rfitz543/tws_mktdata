@@ -1,3 +1,4 @@
+# function to save daily prices into daily folders using FI
 save_daily <- function(ticker)
 {
 require(IBrokers)
