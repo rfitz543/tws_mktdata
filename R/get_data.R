@@ -2,7 +2,9 @@
 get_daily <- function(ticker)
 {
   require(FinancialInstrument)
-  dir <- substr(ticker, 1, 2)
+  
+  dir <- paste('C:/Users/rfitz_000/Documents/R_Projects/TWS/tws_mktdata', 
+               substr(ticker, 1, 2), sep='/')
   daily <- getSymbols.FI(ticker, from=as.Date('2000-01-01'),
                       dir=dir, split_method='days', verbose=FALSE)
   get(daily)
